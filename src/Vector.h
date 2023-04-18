@@ -24,27 +24,48 @@ private:
     size_t tamanio{};
     size_t cantidadDatos{};
 
+    // Pre: cantidadDatos no puede ser mayor a tamanio. NOTA: Esto se maneja internamente.
+    // Post: Copia los datos del vector a uno nuevo con tamaño modificado y reasigna.
     void copiarDatos();
 
+    // Pre: -
+    // Post: Genera un nuevo vector en memoria con tamaño 1.
     void generarVector();
 
+    // Pre: -
+    // Post: Duplica el tamaño del vector.
     void ampliarVector();
 
+    // Pre: -
+    // Post: Reduce el tamaño del vector a la mitad. Si no hay ningun dato, libera la memoria.
     void reducirVector();
 
+    // Pre: -
+    // Post: Verifica y aumenta el tamaño del vector si esta lleno o lo reduce a la mitad de ser posible.
     void verificarTamanio();
 
 public:
+    // Pre: -
+    // Constructor.
     Vector();
 
+    // Pre: -
+    // Post: Agrega el dato al final del vector.
     void pushBack(Dato dato);
 
+    // Pre: -
+    // Post: Elimina y devuelve el ultimo dato del vector. Si no hay ninguno, lanza excepcion.
     Dato popBack();
 
+    // Pre: -
+    // Post: Devuelve la cantidad de datos del vector.
     size_t size();
 
+    // Pre: El indice no puede ser igual o mayor a la cantidad de datos (0-indexed).
+    // Post: Devuelve una referencia al dato deseado.
     Dato& operator[](size_t indice);
 
+    // Destructor.
     ~Vector();
 };
 
