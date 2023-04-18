@@ -13,3 +13,5 @@ Proveer métodos básicos de alta y baja, en particular:
 2. popBack, eliminar el ultimo elemento.
 
 Luego, proveer un método de consulta/modificación. (OPCIONAL: sobrecargar el operador "[]").
+
+HOLA COMO ESTAN TODOS ESTO ES UN EJEMPLO PARA LA CLASE DE AYP2.
