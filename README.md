@@ -14,4 +14,4 @@ Proveer métodos básicos de alta y baja, en particular:
 
 Luego, proveer un método de consulta/modificación. (OPCIONAL: sobrecargar el operador "[]").
 
-HOLA COMO ESTAN TODOS ESTO ES UN EJEMPLO PARA LA CLASE DE AYP2.
+[Enlace a la presentación](https://docs.google.com/presentation/d/1CtZbZoUq2dClj6cJEeraomUKbXd-yqe_JEmjrMYRtr8/edit?usp=sharing)
